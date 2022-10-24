@@ -1,0 +1,246 @@
+:root {
+  --color-primary: #212121;
+  --color-brand: #757575;
+  --color-accent: #2f303a;
+  --color-inverted: #2196f3;
+  --color-white: #fff;
+  --color-background: #fff;
+  --color-secondary: #f5f4fa;
+  --color-text: #000000;
+}
+
+body {
+  color: var(--color-primary);
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--color-inverted);
+  font-family: 'Raleway';
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-header {
+  color: var(--color-text);
+}
+
+.logo-footer-studio {
+  color: var(--color-white);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--color-primary);
+  font-family: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.link:hover {
+  color: var(--color-inverted);
+}
+
+.link:focus {
+  color: var(--color-inverted);
+}
+
+.link-tel-email {
+  color: var(--color-brand);
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.link-tel-email:hover {
+  color: var(--color-inverted);
+}
+
+.link-tel-email:focus {
+  color: var(--color-inverted);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.hero-title {
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.secondary-title {
+  color: var(--color-primary);
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.title-img {
+  color: var(--color-primary);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.title-img-two {
+  color: var(--color-primary);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.section-item {
+  background: var(--color-background);
+}
+
+.about-title {
+  color: var(--color-brand);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.about-team {
+  color: var(--color-brand);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.about-portfolio {
+  color: var(--color-brand);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.hero-section {
+  background-color: var(--color-accent);
+}
+
+.section-team {
+  background-color: var(--color-secondary);
+}
+
+.footer {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address {
+  color: var(--color-white);
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address:hover {
+  color: var(--color-inverted);
+}
+
+.address:focus {
+  color: var(--color-inverted);
+}
+
+.address-contact {
+  color: var(--color-white);
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 60%;
+}
+
+.address-contact:hover {
+  color: var(--color-inverted);
+}
+
+.address-contact:focus {
+  color: var(--color-inverted);
+}
+
+/* Button */
+.primary-button {
+  color: var(--color-white);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 700;
+  background-color: var(--color-inverted);
+  border: 0;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.primary-button:hover {
+  background-color: #0789f3;
+}
+s .primary-button:focus {
+  background-color: #0789f3;
+}
+
+.button {
+  color: var(--color-primary);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  background-color: var(--color-secondary);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.button:hover {
+  color: var(--color-white);
+  background-color: var(--color-inverted);
+}
+
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-inverted);
+}
