@@ -67,8 +67,6 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #ececec;
 }
 
 /*SINE-NAV*/
@@ -405,18 +403,24 @@ ul {
   text-align: center;
   border-radius: 4px;
   min-width: 73px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button:hover {
   color: var(--color-white);
   background-color: var(--color-inverted);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button:focus {
   color: var(--color-white);
   background-color: var(--color-inverted);
+}
+
+/*Header portfolio*/
+.header {
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ececec;
 }
 
 /*Portfolio*/
@@ -441,7 +445,6 @@ ul {
   margin: 0;
   padding: 0;
   margin-right: -30px;
-  margin-bottom: -30px;
 }
 
 .portfolio .item {
